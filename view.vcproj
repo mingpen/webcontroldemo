@@ -45,6 +45,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
+				AdditionalIncludeDirectories=".;../../../../internal/common;../../../../internal/helper;../../../component;../../../../internal/util"
 				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -68,6 +69,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				LinkIncremental="2"
+				AdditionalLibraryDirectories=".;../../../../internal/common/lib;../../../../internal/common/3rd/lib"
 				GenerateDebugInformation="true"
 				SubSystem="2"
 				TargetMachine="1"
@@ -125,6 +127,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="2"
 				EnableIntrinsicFunctions="true"
+				AdditionalIncludeDirectories=".;../../../../internal/common;../../../../internal/helper;../../../component;../../../../internal/util"
 				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG"
 				MinimalRebuild="false"
 				RuntimeLibrary="0"
@@ -148,6 +151,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				LinkIncremental="1"
+				AdditionalLibraryDirectories=".;../../../../internal/common/lib;../../../../internal/common/3rd/lib"
 				GenerateDebugInformation="true"
 				SubSystem="2"
 				OptimizeReferences="2"
@@ -190,6 +194,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\msword.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\stdafx.cpp"
 				>
 				<FileConfiguration
@@ -225,6 +233,10 @@
 			>
 			<File
 				RelativePath=".\explorer1.h"
+				>
+			</File>
+			<File
+				RelativePath=".\msword.h"
 				>
 			</File>
 			<File
@@ -265,6 +277,58 @@
 				RelativePath=".\res\view.rc2"
 				>
 			</File>
+		</Filter>
+		<Filter
+			Name="util"
+			>
+			<Filter
+				Name="file"
+				>
+				<File
+					RelativePath="..\..\..\..\internal\util\file\FileHelper.cpp"
+					>
+				</File>
+				<File
+					RelativePath="..\..\..\..\internal\util\file\FileHelper.h"
+					>
+				</File>
+			</Filter>
+			<Filter
+				Name="log"
+				>
+				<File
+					RelativePath="..\..\..\..\internal\util\log\Log.cpp"
+					>
+				</File>
+				<File
+					RelativePath="..\..\..\..\internal\util\log\Log.h"
+					>
+				</File>
+			</Filter>
+			<Filter
+				Name="string"
+				>
+				<File
+					RelativePath="..\..\..\..\internal\util\string\WstringHelper.cpp"
+					>
+				</File>
+				<File
+					RelativePath="..\..\..\..\internal\util\string\WstringHelper.h"
+					>
+				</File>
+			</Filter>
+			<Filter
+				Name="registry"
+				>
+				<File
+					RelativePath="..\..\..\..\internal\util\registry\RegHelper.cpp"
+					>
+				</File>
+				<File
+					RelativePath="..\..\..\..\internal\util\registry\RegHelper.h"
+					>
+				</File>
+			</Filter>
 		</Filter>
 		<File
 			RelativePath=".\ReadMe.txt"

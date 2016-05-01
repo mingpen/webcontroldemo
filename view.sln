@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "view", "view.vcproj", "{F13970B9-83BD-423A-B073-943FA0323DE6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClientInfoLookUp", "..\..\ClientInfoLookUp\ClientInfoLookUp\ClientInfoLookUp.vcproj", "{26DE76C9-DB43-4E2F-A4F6-BD1151B92171}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -13,6 +15,10 @@ Global
 		{F13970B9-83BD-423A-B073-943FA0323DE6}.Debug|Win32.Build.0 = Debug|Win32
 		{F13970B9-83BD-423A-B073-943FA0323DE6}.Release|Win32.ActiveCfg = Release|Win32
 		{F13970B9-83BD-423A-B073-943FA0323DE6}.Release|Win32.Build.0 = Release|Win32
+		{26DE76C9-DB43-4E2F-A4F6-BD1151B92171}.Debug|Win32.ActiveCfg = Debug|Win32
+		{26DE76C9-DB43-4E2F-A4F6-BD1151B92171}.Debug|Win32.Build.0 = Debug|Win32
+		{26DE76C9-DB43-4E2F-A4F6-BD1151B92171}.Release|Win32.ActiveCfg = Release|Win32
+		{26DE76C9-DB43-4E2F-A4F6-BD1151B92171}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

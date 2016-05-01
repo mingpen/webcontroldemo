@@ -24,6 +24,10 @@ public:
 protected:
 	HICON m_hIcon;
 
+	CString m_strFilePathView;
+
+	CString m_strFilePathPlain;
+
 	// 生成的消息映射函数
 	virtual BOOL OnInitDialog();
 	afx_msg void OnPaint();
@@ -31,4 +35,12 @@ protected:
 	DECLARE_MESSAGE_MAP()
 public:
 	CExplorer1 m_exp;
+
+	bool ConvertToMHT();
+	afx_msg void OnTimer(UINT_PTR nIDEvent);
+
+private:
+	UINT_PTR m_nTimer;
+public:
+	afx_msg void OnDestroy();
 };

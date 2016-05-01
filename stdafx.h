@@ -41,9 +41,8 @@
 
 
 
-
-
-
+#include "include\CommonINC.h"
+#include "string\WstringHelper.h"
 
 #ifdef _UNICODE
 #if defined _M_IX86
